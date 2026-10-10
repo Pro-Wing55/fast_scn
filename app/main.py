@@ -19,7 +19,7 @@ async def add_employee(employee: Employee):
     return __emp.save(employee)
 
 # 6. The API endpoint to Fetch Frist 5 employee automatically into the CSV
-@app.get("/fetch-employee/")
+@app.get("/fetch-employees/")
 async def fetch_employee():
     return __emp._getemp()
 
