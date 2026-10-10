@@ -26,6 +26,6 @@ async def fetch_employee():
 
 @app.get("/fetch-employee/{id}")
 async def fetch_employee(id:int):
-    return __emp._getemp(id) 
+    return __emp._getempByid(id) 
 
 

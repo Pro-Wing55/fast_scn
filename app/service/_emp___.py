@@ -38,7 +38,7 @@ class __emp():
          return df.to_dict(orient="records")
 
     
-    def _getemp(id):
+    def _getempByid(id):
               # 1. Load the CSV into a DataFrame
             df = pd.read_csv(CSV_FILE_PATH)
 
